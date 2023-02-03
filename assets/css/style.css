@@ -1,0 +1,166 @@
+/*sets the default browser values of box-sizing to border box, padding and margin to zero.*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/*element selector styles the background color of the body content*/
+body {
+  background-color: #d9dcd6;
+}
+
+/*element selector that styles the content of the navigation menu bar
+and its fixed to the top*/
+nav {
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #2a607c;
+  color: #ffffff;
+  position: fixed;
+  width: 100%;
+}
+
+/*element selectors that stacks the headings of the navigation bar one to each other in the same line
+with a font size of 48px*/
+nav h1 {
+  display: inline-block;
+  font-size: 48px;
+}
+
+/*styles the heading h1 (logo) with a class seo inside the nav container*/
+nav h1 .seo {
+  color: #d9dcd6;
+}
+
+/*removes the default list style type of the unordered list*/
+/*positions the navigation links at the right of the screen*/
+nav ul {
+  list-style-type: none;
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+
+/*positions the list items of the unordered list at the navigation
+next to each other in the same line with a margin left of 25px*/
+nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+/*sets anchors with a white color and without the default underline styling*/
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/*sets a font size of 16 px to all paragraphs*/
+p {
+  font-size: 16px;
+}
+
+/*element selector that styles the header container with a background image that covers
+the container area and its centered*/
+header {
+  height: 800px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../images/digital-marketing-meeting.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/*class selector float-left move content to the left with a margin right of 25px*/
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+
+/*class selector float-right move content to the right with a margin left of 25px*/
+.float-right {
+  float: right;
+  margin-left: 25px;
+}
+
+/*element selector section container with a width of 75%, margin left of 20px and the 
+elments inside the container stack in the same line*/
+section {
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+/*styling a class selector named benefits*/
+.benefits {
+  margin-right: 20px;
+  padding: 20px;
+  clear: both;
+  float: right;
+  width: 20%;
+  height: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #2589bd;
+}
+
+/*class selector benefit is used to style all the containers with a class named benefit
+with the same styling*/
+.benefit {
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+/*all subheadings h3, children of a container with a class named benefit, will have a
+margin bottom of 10px and aligned to the center*/
+.benefit h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/*all the images, children of a container with a class named benefit, will be displayed
+stack in top of other element with a vertical margin of 10 px and an automatic horizontal margin.
+The maximum width is 150px*/
+.benefit img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+
+/* class selector features is used to style the 
+three different divs content (SEO, Online Reputation and Social Media Mkt) 
+with the same css declarations*/
+.features {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+/*all the images inside a container with a class named features will have
+a maximum height of 200px*/
+.features img {
+  max-height: 200px;
+}
+
+/* all the subheadings h2 inside a container with a class named features will have
+margin bottom of 20px and a font size of 36px*/
+.features h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+/* element selector footer styles the bottom section content of the landing page*/
+footer {
+  padding: 30px;
+  clear: both;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+}
+/* font size of footer subheading*/
+footer h2 {
+  font-size: 20px;
+}
